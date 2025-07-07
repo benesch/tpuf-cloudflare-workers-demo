@@ -1,0 +1,10 @@
+name = "turbopuffer-worker"
+main = "./dist/worker.js"
+compatibility_date = "2024-12-05"
+
+[build]
+command = "npm run build"
+
+[vars]
+# Add your Turbopuffer API key here or use wrangler secret put TURBOPUFFER_API_KEY
+# TURBOPUFFER_API_KEY = "your-api-key-here"
