@@ -4,10 +4,8 @@
   "description": "A Cloudflare Worker that queries Turbopuffer using Vite",
   "type": "module",
   "scripts": {
-    "dev": "wrangler dev",
-    "build": "vite build",
-    "deploy": "wrangler deploy",
-    "preview": "wrangler dev --local"
+    "dev": "vite dev --force",
+    "build": "vite build"
   },
   "keywords": [
     "cloudflare-workers",

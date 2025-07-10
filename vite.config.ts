@@ -32,6 +32,7 @@ export default defineConfig({
     rollupOptions: {
       external: ['undici', 'node:util', 'node:zlib'],
     },
+    ssr: "src/worker.js",
   },
   resolve: {
     conditions: ['worker', 'webworker'],
